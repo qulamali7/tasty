@@ -1,0 +1,51 @@
+.swiper{
+    height: 100vh;
+    width: 100%;
+}
+.slider_img1{
+    background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.33)),url("https://preview.colorlib.com/theme/tasty/images/bg_1.jpg");
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    h1{
+        font-size: 86px;
+        color: #fff;
+        font-family: fantasy;
+    }
+
+}
+.slider_img2{
+    background-image:  linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(0, 0, 0, 0.33)),url("https://preview.colorlib.com/theme/tasty/images/bg_2.jpg");
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    h1{
+        font-size: 86px;
+        color: #fff;
+        font-family: fantasy;
+    }
+
+}
+.slider_img3{
+    background-image:  linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(0, 0, 0, 0.33)),url("https://preview.colorlib.com/theme/tasty/images/bg_3.jpg");
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    h1{
+        font-size: 86px;
+        color: #fff;
+        font-family: fantasy;
+    }
+
+}
+@media (min-width: 300px) and (max-width:600px){
+    .slider_img{
+        height: 100%;
+        img{
+            height: 100%;
+        }
+    }
+}

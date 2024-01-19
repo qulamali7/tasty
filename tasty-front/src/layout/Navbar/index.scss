@@ -1,0 +1,53 @@
+header {
+    min-height: 72px;
+    background-color: #404044;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+  .header_container {
+    max-width: 1200px;
+    margin: auto;
+    .header_content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 0px;
+      .logo {
+        font-size: 20px;
+        color: #ffff;
+        padding: 5px 10px;
+        border: 2px solid #fff;
+      }
+      nav {
+        ul {
+          display: flex;
+          align-items: center;
+          gap:60px ;
+          li {
+            a {
+                font-size: 16px;
+                color: #ffffff;
+            }
+            .active{
+                color: #ffb400;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 300px) and (max-width:600px){
+  header {
+  .header_container {
+    .header_content {
+      justify-content: center;
+      nav {
+        display: none;
+      }
+    }
+  }
+}
+}

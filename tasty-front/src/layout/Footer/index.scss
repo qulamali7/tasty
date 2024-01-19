@@ -1,0 +1,27 @@
+footer{
+    background-color: #27272B;
+    .footer_container{
+        max-width: 1200px;
+        margin: auto;
+        .footer_content{
+            padding: 20px;
+            p{
+                text-align: center;
+                color: #5F7C92;
+            }
+        }
+    }
+}
+@media (min-width: 300px) and (max-width:600px){
+    footer{
+        .footer_container{
+            .footer_content{
+                p{
+                    text-align: center;
+                    color: #5F7C92;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
